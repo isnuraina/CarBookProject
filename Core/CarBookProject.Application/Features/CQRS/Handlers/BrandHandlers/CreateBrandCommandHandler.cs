@@ -23,7 +23,6 @@ namespace CarBookProject.Application.Features.CQRS.Handlers.BrandHandlers
             await _repository.CreateAsync(new Brand
             {
                Name= command.Name,
-
             }); 
         }
     }
